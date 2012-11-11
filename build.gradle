@@ -1,0 +1,10 @@
+apply plugin: 'groovy'
+apply plugin: 'eclipse'
+
+dependencies {
+  compile 'com.gmongo:gmongo:1.0'
+}
+
+repositories {
+  mavenCentral()
+}
